@@ -33,10 +33,10 @@
                       <a class="nav-link" href="index.html">  <i class="fas fa-home"></i>  Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="sobre.html"> <i class="fas fa-info-circle"> <p></p> </i>Sobre</a>
+                      <a class="nav-link" href="sobre.html"> <i class="fas fa-info-circle"></i>  Sobre</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cervejas.html"> <i class="fas fa-beer"></i>Cervejas</a>
+                      <a class="nav-link" href="cervejas.html"> <i class="fas fa-beer"></i>  Chopps/Cervejas</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +49,7 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Convidados</a>
+                      <a class="nav-link" href="destaque.html" > <i class="fas fa-gem"></i>  Destaques</a>
                     </li>
                   </ul>
                   </div>
@@ -75,54 +75,27 @@
               </div>
             </div>
 
-
-
-
-      <!-- Start WOWSlider.com BODY section -->
-      <!-- <div class="row mt-5">
-        <div class="col-12">
-        <div class="slider">
-          <div id="wowslider-container1">
-          <div class="ws_images"><ul>
-              <li><a href="http://wowslider.net"><img src="data1/images/cerva.jpg" alt="bootstrap carousel" title="cerva" id="wows1_0"/></a></li>
-              <li><img src="data1/images/peixe.jpg" alt="peixe" title="peixe" id="wows1_1"/></li>
-            </ul></div>
-            <div class="ws_bullets"><div>
-              <a href="#" title="cerva"><span><img src="data1/tooltips/cerva.jpg" alt="cerva"/>1</span></a>
-              <a href="#" title="peixe"><span><img src="data1/tooltips/peixe.jpg" alt="peixe"/>2</span></a>
-            </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
-          <div class="ws_shadow"></div>
-          </div>
-          <script type="text/javascript" src="engine1/wowslider.js"></script>
-          <script type="text/javascript" src="engine1/script.js"></script>
-        </div>
-      </div>
-      </div> -->
-    <!-- End WOWSlider.com BODY section -->
     </div>
 
-
-
-
-
-    <script>
-      $("#btn").on("click", function(){
-        if($(this).data('imagem') == 'aberta'){
-          $(this).data('imagem', 'fechada');
-          $("#logoimg").hide();
-        }
-        else if($(this).data('imagem') == 'fechada'){
-          $("#logoimg").show();
-          $(this).data('imagem', 'aberta');
-        }
-
-      });
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script>
+     $("#btn").on("click", function(){
+       if($(this).data('imagem') == 'aberta'){
+         $(this).data('imagem', 'fechada');
+         $("#logoimg").hide();
+       }
+       else if($(this).data('imagem') == 'fechada'){
+         $("#logoimg").show();
+         $(this).data('imagem', 'aberta');
+       }
+
+     });
+   </script>
+
   </body>
 </html>

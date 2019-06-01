@@ -29,10 +29,10 @@ body{
     background-color: rgba(0, 0, 0, 0.5)!important;
   /* top: 37px; */
 }
-#btn{
-  position: relative !important;
-  display: flex!important;
-  float: right!important;
+
+
+.botao{
+  margin-left: 90%;
 }
 
 .footer{
@@ -42,7 +42,7 @@ body{
     bottom: 0;
     margin-top: 6%;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 100px;
+    height: 120px;
     display: flex;
  align-items: center;
  justify-content: center;
@@ -67,4 +67,9 @@ a{
 
 a:hover{
   color: white;
+}
+
+.insta{
+  color: white;
+  text-align: center;
 }
