@@ -73,3 +73,9 @@ a:hover{
   color: white;
   text-align: center;
 }
+
+.chopp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
